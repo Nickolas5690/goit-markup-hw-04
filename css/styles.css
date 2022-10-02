@@ -22,7 +22,7 @@ ul {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;  
+  padding-bottom: 94px;
 }
 
 body {
@@ -99,7 +99,7 @@ body {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -110,7 +110,7 @@ body {
 
 .header-envelope {
   display: block;
-  margin-right: 10px;  
+  margin-right: 10px;
 
   width: 16px;
   height: 12px;
@@ -121,10 +121,10 @@ body {
 .header-smartphone {
   display: block;
   margin-right: 10px;
-  
+
   width: 10px;
   height: 16px;
-  
+
   fill: #757575;
 }
 
@@ -139,7 +139,7 @@ body {
 .header-e-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: #2196f3;  
+  color: #2196f3;
 }
 
 .header-e-mail:hover > svg,
@@ -156,10 +156,10 @@ body {
   height: 600px;
   margin: auto;
   background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ),
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -185,7 +185,7 @@ body {
 
 .hero-btn {
   display: inline-block;
-  font-family: inherit; 
+  font-family: inherit;
   padding: 10px 32px;
 
   font-weight: 700;
@@ -206,7 +206,7 @@ body {
 .hero-under-top-list {
   display: flex;
   justify-content: center;
-  gap: 30px;  
+  gap: 30px;
 }
 
 /* .hero-under-top-item:not(:last-child) {
@@ -218,14 +218,14 @@ margin-right: 30px;
   height: 120px;
   margin-bottom: 30px;
 
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
 .under-hero-icon {
   /* display: inline-block; */
   width: 70px;
-  height: 70px; 
+  height: 70px;
   margin-top: 25px;
   margin-left: 100px;
 }
@@ -267,7 +267,7 @@ margin-right: 30px;
 } */
 
 .hero-down-section {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 
 .hero-down-top-title {
@@ -290,17 +290,18 @@ margin-right: 30px;
 } */
 
 .hero-down-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.hero-down-img { 
+.hero-down-img {
   display: block;
 }
 
-.hero-down-div {   
+.hero-down-div {
   padding-top: 30px;
-  padding-bottom: 30px;  
+  padding-bottom: 30px;
 }
 
 .hero-down-title {
@@ -351,11 +352,11 @@ margin-right: 30px;
 .hero-down-icon {
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
-  }
+  fill: #afb1b8;
+}
 
-.social-link:hover>svg,
-.social-link:focus>svg {
+.social-link:hover > svg,
+.social-link:focus > svg {
   fill: #ffffff;
 }
 
@@ -375,7 +376,7 @@ margin-right: 30px;
 
 .claents-list {
   margin-top: 30px;
-  display: flex;  
+  display: flex;
 }
 
 .claents-item:not(:last-child) {
@@ -388,16 +389,16 @@ margin-right: 30px;
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
 .claents-icon {
-  display: block;  
+  display: block;
   width: 106px;
   height: 60px;
 
-  fill: #AFB1B8;;
+  fill: #afb1b8;
 }
 
 .claents-link:hover,
@@ -405,18 +406,17 @@ margin-right: 30px;
   border: 1px solid #2196f3;
 }
 
-.claents-link:hover>svg,
-.claents-link:focus>svg {
+.claents-link:hover > svg,
+.claents-link:focus > svg {
   fill: #2196f3;
 }
-
 
 /* ------------FOOTER---------------- */
 
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-  padding-bottom: 60px;  
+  padding-bottom: 60px;
 }
 
 .footer-container {
@@ -426,7 +426,7 @@ margin-right: 30px;
 
 .footer-logo-div {
   display: inline-block;
-  margin-right: 156px;   
+  margin-right: 156px;
 }
 
 .footer-logo {
@@ -443,13 +443,13 @@ margin-right: 30px;
 }
 
 .footer-title {
-  ont-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .footer-item {
@@ -470,7 +470,7 @@ margin-right: 30px;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-link:hover,
@@ -575,7 +575,7 @@ margin-right: 30px;
   padding: 20px 24px;
 }
 
-.examples-title {  
+.examples-title {
   margin-bottom: 4px;
 
   font-weight: 700;
