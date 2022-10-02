@@ -300,7 +300,7 @@ margin-right: 30px;
 
 .hero-down-div {   
   padding-top: 30px;
-  /* padding-bottom: 30px;   */
+  padding-bottom: 30px;  
 }
 
 .hero-down-title {
@@ -321,27 +321,106 @@ margin-right: 30px;
   color: var(--other-text-color);
 }
 
+/* -----------SOCIAL----------- */
+
 .social-item {
-  margin-top: 16px;
   display: flex;
-  
+  justify-content: center;  
 }
 
+.social-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  text-align: center;
+  }
+
 .hero-down-div-icon {
+  display: block;
   
+  margin-top: 16px;
   width: 44px;
   height: 44px;
-  
+  border-radius: 50%;
+}
+
+.hero-down-div-icon:hover,
+.hero-down-div-icon:focus {
+  background-color: #2196f3;
 }
 
 .hero-down-icon {
-  display: block;  
-  
-  width: 20px;
-  height: 20px;
+  margin-top: 12px;
   
   fill: #AFB1B8;
 }
+
+.hero-down-instagram,
+.hero-down-twitter,
+.hero-down-facebook,
+.hero-down-linkedin {
+  width: 20px;
+  height: 20px;
+}
+
+.hero-down-div-icon:hover>svg,
+.hero-down-div-icon:focus>svg {
+  fill: #ffffff;
+}
+
+/* ---------CLAENTS------------- */
+
+.claents-title {
+  margin-bottom: 50 px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.claents-list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.claents-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.claents-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.claents-icon {
+  display: block;
+  margin-top: 16px;
+  margin-left: 32px;
+  width: 106px;
+  height: 60px;
+
+  fill: #AFB1B8;;
+}
+
+.claents-link:hover,
+.claents-link:focus {
+  border: 1px solid #2196f3;
+}
+
+.claents-link:hover>svg,
+.claents-link:focus>svg {
+  fill: #2196f3;
+}
+
 
 /* ------------FOOTER---------------- */
 
