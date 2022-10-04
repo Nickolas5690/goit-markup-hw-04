@@ -167,13 +167,14 @@ body {
   background-color: #212121;
 }
 
-.hero-top-section {
+.hero-div {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
-  margin-bottom: 30px;
-  padding-top: 200px;
+  margin-bottom: 30px;  
 
   font-weight: 900;
   font-size: 44px;
@@ -201,6 +202,10 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: transparent;
+}
+
+.hero-under-top-section {
+  padding-top: 94px;
 }
 
 .hero-under-top-list {
@@ -268,6 +273,10 @@ margin-right: 30px;
 
 .hero-down-section {
   background: #f5f4fa;
+}
+
+.hero-down-div {
+  background-color: #ffffff;
 }
 
 .hero-down-top-title {
@@ -426,7 +435,7 @@ margin-right: 30px;
 
 .footer-logo-div {
   display: inline-block;
-  margin-right: 156px;
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -561,6 +570,12 @@ margin-right: 30px;
   width: 370px;
   gap: 30px;
   border: 1px solid #eeeeee;
+}
+
+.examples-item:hover,
+.examples-item:focus {
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* .examples-item:not(:nth-child(3n)) {
